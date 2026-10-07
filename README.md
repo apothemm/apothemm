@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="modeAlohadance — полезные инструменты, понятные решения. Python, desktop, автоматизация." width="100%" />
+  <img src="./assets/header.svg" alt="modeAlohadance — полезные инструменты, понятные решения. Python, C++, desktop, автоматизация." width="100%" />
 </p>
 
 <p align="center">
@@ -8,11 +8,37 @@
   <a href="#направление">Направление</a>
 </p>
 
-Развиваюсь в **Python-разработке** и создаю инструменты для повседневных задач: от приложений для Windows до автоматизации и работы с данными. Понятные интерфейсы, локальная обработка и возможность быстро получить полезный результат.
+Развиваюсь в **Python- и C++-разработке** и создаю инструменты для повседневных задач: от приложений для Windows до автоматизации и работы с данными. Понятные интерфейсы, локальная обработка и возможность быстро получить полезный результат.
 
 ## Проекты
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### ▣ [WorkDesk](https://github.com/modeAlohadance/workdesk)
+**Рабочий день в одном окне.**
+
+Задачи с приоритетами и фильтрами, заметки и таймер фокусировки. Локальное сохранение и экспорт задач в CSV.
+
+`C++17` `Win32` `CMake`
+
+[Исходники ↗](https://github.com/modeAlohadance/workdesk) · [Скачать для Windows ↓](https://github.com/modeAlohadance/workdesk/releases/latest)
+
+</td>
+<td width="50%" valign="top">
+
+### ◉ [SystemScope](https://github.com/modeAlohadance/systemscope)
+**Что происходит с компьютером?**
+
+Загрузка CPU и RAM, поиск процессов, свободное место на дисках. Автообновление и экспорт снимка в CSV.
+
+`C++17` `Windows API` `CTest`
+
+[Исходники ↗](https://github.com/modeAlohadance/systemscope) · [Скачать для Windows ↓](https://github.com/modeAlohadance/systemscope/releases/latest)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -100,6 +126,9 @@ CLI для поиска и маскирования распространённ
 В моих проектах используются:
 
 <p>
+  <img src="./assets/cpp.svg" alt="C++17" height="30" />
+  <img src="./assets/win32.svg" alt="Win32 API" height="30" />
+  <img src="./assets/cmake.svg" alt="CMake" height="30" />
   <img src="./assets/python.svg" alt="Python" height="30" />
   <img src="./assets/tkinter.svg" alt="Tkinter" height="30" />
   <img src="./assets/sqlite.svg" alt="SQLite" height="30" />
@@ -109,14 +138,14 @@ CLI для поиска и маскирования распространённ
   <img src="./assets/actions.svg" alt="GitHub Actions" height="30" />
 </p>
 
-Для FocusHarbor, SnippetShelf и DiskLens подготовлены инструкции, автоматические проверки и Windows-сборки. Для меня важно, чтобы проект можно было не только прочитать, но и запустить.
+WorkDesk и SystemScope собираются на C++17 с Win32 API и CMake. Вместе с FocusHarbor, SnippetShelf и DiskLens они имеют инструкции, автоматические проверки и готовые Windows-сборки. Для меня важно, чтобы проект можно было не только прочитать, но и запустить.
 
 ## Направление
 
-Интересуют **стажировки и junior-позиции** в Python-разработке, автоматизации и создании инструментов для пользователей и разработчиков. Продолжаю изучать архитектуру приложений, тестирование и работу с API на практических проектах.
+Интересуют **стажировки и junior-позиции** в разработке на Python и C++, автоматизации и создании инструментов для пользователей и разработчиков. Продолжаю изучать архитектуру приложений, тестирование и работу с API на практических проектах.
 
 Идеи и замечания по приложениям можно оставить в **Issues соответствующего репозитория**.
 
 ---
 
-<p align="center"><sub>Python tools · Desktop apps · Everyday automation</sub></p>
+<p align="center"><sub>Python &amp; C++ · Desktop apps · Everyday automation</sub></p>

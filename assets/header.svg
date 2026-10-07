@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">modeAlohadance</title>
-  <desc id="desc">Полезные инструменты. Понятные решения. Python, desktop, автоматизация.</desc>
+  <desc id="desc">Полезные инструменты. Понятные решения. Python, C++, desktop, автоматизация.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#101d35"/><stop offset="1" stop-color="#0a1222"/>
@@ -20,7 +20,7 @@
   <text x="52" y="128" fill="#f1f5f9" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="56" letter-spacing="-1.7">modeAlohadance</text>
   <text x="55" y="188" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="26">Полезные инструменты.</text>
   <text x="55" y="225" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="26">Понятные решения.</text>
-  <text x="55" y="298" fill="#5eead4" font-family="Consolas,monospace" font-size="15" letter-spacing="1">PYTHON / DESKTOP / AUTOMATION</text>
+  <text x="55" y="298" fill="#5eead4" font-family="Consolas,monospace" font-size="15" letter-spacing="1">PYTHON / C++ / DESKTOP / AUTOMATION</text>
   <g transform="translate(825 59)">
     <rect x="35" y="12" width="244" height="205" rx="16" fill="#102d3c" stroke="#254957" transform="rotate(8 160 110)"/>
     <rect width="260" height="222" rx="15" fill="#15243b" stroke="#37516d"/>
