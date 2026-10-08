@@ -4,6 +4,8 @@
 
 Основная практика — **Python и C#**. C++, Go, Rust и TypeScript пробую в отдельных проектах. Репозитории ниже — личные учебные работы, созданные с помощью ИИ; это не коммерческий опыт.
 
+Сайт для заказчиков: **[apothemm.github.io](https://apothemm.github.io/)** · [Telegram](https://t.me/apothemm)
+
 ### С чего начать
 
 **[VaultTrail](https://github.com/apothemm/vault-trail)** · C# / .NET  
