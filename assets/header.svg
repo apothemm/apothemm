@@ -1,41 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">modeAlohadance</title>
-  <desc id="desc">Полезные инструменты. Понятные решения. Python, C++, desktop, автоматизация.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#101d35"/><stop offset="1" stop-color="#0a1222"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#5eead4"/><stop offset="1" stop-color="#7dd3fc"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#263b53"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
-  <rect x="730" y="0" width="470" height="360" rx="22" fill="url(#grid)" opacity=".65"/>
-  <path d="M30 359H1170" stroke="url(#accent)" stroke-width="2" opacity=".6"/>
-  <rect x="54" y="48" width="39" height="4" rx="2" fill="#5eead4"/>
-  <text x="106" y="55" fill="#93aec9" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="2.6">BUILD · LEARN · IMPROVE</text>
-  <text x="52" y="128" fill="#f1f5f9" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="56" letter-spacing="-1.7">modeAlohadance</text>
-  <text x="55" y="188" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="26">Полезные инструменты.</text>
-  <text x="55" y="225" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="26">Понятные решения.</text>
-  <text x="55" y="298" fill="#5eead4" font-family="Consolas,monospace" font-size="15" letter-spacing="1">PYTHON / C++ / DESKTOP / AUTOMATION</text>
-  <g transform="translate(825 59)">
-    <rect x="35" y="12" width="244" height="205" rx="16" fill="#102d3c" stroke="#254957" transform="rotate(8 160 110)"/>
-    <rect width="260" height="222" rx="15" fill="#15243b" stroke="#37516d"/>
-    <path d="M0 40H260" stroke="#37516d"/>
-    <circle cx="20" cy="20" r="4" fill="#5eead4"/>
-    <circle cx="35" cy="20" r="4" fill="#7dd3fc"/>
-    <circle cx="50" cy="20" r="4" fill="#475f7a"/>
-    <text x="25" y="91" fill="#5eead4" font-family="Consolas,monospace" font-size="28">&gt;_</text>
-    <rect x="25" y="112" width="130" height="7" rx="3.5" fill="#c0d0e2"/>
-    <rect x="25" y="132" width="184" height="7" rx="3.5" fill="#506880"/>
-    <rect x="25" y="152" width="155" height="7" rx="3.5" fill="#506880"/>
-    <rect x="25" y="187" width="88" height="5" rx="2.5" fill="url(#accent)"/>
-    <g transform="translate(198 172)">
-      <circle cx="27" cy="27" r="29" fill="#5eead4"/>
-      <path d="m15 27 8 8 16-17" fill="none" stroke="#102c35" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<title id="title">apothemm — practical software</title><desc id="desc">Графит и серебро. Инструменты для спокойной работы. C#, C++, Go, Rust, TypeScript и Python.</desc>
+<rect width="1200" height="330" rx="8" fill="#18191c"/>
+<path d="M48 54H1152M48 276H1152" stroke="#414349"/>
+<text x="48" y="37" fill="#a3a6ad" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3">APOTHEMM / SOFTWARE NOTES</text>
+<text x="48" y="139" fill="#e2e3e6" font-family="Segoe UI,Arial,sans-serif" font-size="66" font-weight="400" letter-spacing="-2">apothemm</text>
+<text x="52" y="191" fill="#b5b7bd" font-family="Segoe UI,Arial,sans-serif" font-size="24">Инструменты для спокойной работы.</text>
+<text x="52" y="235" fill="#8f939b" font-family="Consolas,monospace" font-size="14">C# / C++ / GO / RUST / TYPESCRIPT / PYTHON</text>
+<text x="48" y="306" fill="#a3a6ad" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">LOCAL FIRST. CLEAR PURPOSE.</text>
+<g transform="translate(870 87)" fill="none" stroke="#7c8088"><rect width="245" height="149" rx="3"/><path d="M0 32H245M30 65H158M30 89H211M30 113H181"/><circle cx="18" cy="16" r="3" fill="#ced0d5" stroke="none"/><path d="M206 12H228M206 19H228" stroke="#a6a9b0"/></g>
 </svg>

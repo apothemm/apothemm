@@ -1,151 +1,66 @@
-<p align="center">
-  <img src="./assets/header.svg" alt="modeAlohadance — полезные инструменты, понятные решения. Python, C++, desktop, автоматизация." width="100%" />
-</p>
+<p><img src="./assets/header.svg" alt="apothemm — инструменты для спокойной работы. Графит и серебро." width="100%" /></p>
 
-<p align="center">
-  <a href="#проекты">Проекты</a> &nbsp;·&nbsp;
-  <a href="#технологии">Технологии</a> &nbsp;·&nbsp;
-  <a href="#направление">Направление</a>
-</p>
+Практические проекты на **C#, C++, Go, Rust, TypeScript и Python**. Развиваюсь в разработке инструментов для повседневной работы: локальная обработка, понятные команды, проверяемое поведение.
 
-Развиваюсь в **Python- и C++-разработке** и создаю инструменты для повседневных задач: от приложений для Windows до автоматизации и работы с данными. Понятные интерфейсы, локальная обработка и возможность быстро получить полезный результат.
+[Основной проект](#основной-проект) · [Утилиты](#утилиты) · [Desktop](#desktop) · [Технологии](#технологии)
 
-## Проекты
+## Основной проект
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### [VaultTrail ↗](https://github.com/apothemm/vault-trail)
 
-### ▣ [WorkDesk](https://github.com/modeAlohadance/workdesk)
-**Рабочий день в одном окне.**
+**Версии файлов, которым можно доверять после проверки.**
 
-Задачи с приоритетами и фильтрами, заметки и таймер фокусировки. Локальное сохранение и экспорт задач в CSV.
+Локальное хранилище резервных снимков на C# / .NET. Несколько задач в одной системе:
 
-`C++17` `Win32` `CMake`
+- Параллельное копирование и SHA-256; дедупликация одинакового содержимого.
+- История снимков и сравнение добавленных, удалённых и изменённых файлов.
+- Проверка целостности и восстановление с предварительным просмотром.
+- Блокировка хранилища, проверка путей и интеграционные тесты на Windows и Linux.
 
-[Исходники ↗](https://github.com/modeAlohadance/workdesk) · [Скачать для Windows ↓](https://github.com/modeAlohadance/workdesk/releases/latest)
+[Код и запуск](https://github.com/apothemm/vault-trail#запуск) · [Архитектура](https://github.com/apothemm/vault-trail/blob/main/docs/architecture.md) · [Проверки](https://github.com/apothemm/vault-trail/actions)
 
-</td>
-<td width="50%" valign="top">
+Также: **[DiffSignal](https://github.com/apothemm/diffsignal)** — self-hosted мониторинг изменений веб-страниц с историей, сравнением версий, веб-интерфейсом и REST API. `Python / FastAPI / SQLite / Docker`
 
-### ◉ [SystemScope](https://github.com/modeAlohadance/systemscope)
-**Что происходит с компьютером?**
+## Утилиты
 
-Загрузка CPU и RAM, поиск процессов, свободное место на дисках. Автообновление и экспорт снимка в CSV.
+| Проект | Технология | Для чего |
+| :-- | :-- | :-- |
+| [LogWorkbench](https://github.com/apothemm/log-workbench) | C# / .NET | Поиск в логах, фильтры уровней, статистика и JSON-отчёт |
+| [CsvScout](https://github.com/apothemm/csv-scout) | C++17 / CMake | Проверка CSV, многострочные поля, пустые значения и ширина строк |
+| [LinkPulse](https://github.com/apothemm/link-pulse) | Go | Конкурентные HTTP-проверки, тайм-ауты, статусы и задержка |
+| [HashLedger](https://github.com/apothemm/hash-ledger) | Rust | SHA-256-манифесты каталогов и проверка файлов после передачи |
+| [RepoLens](https://github.com/apothemm/repo-lens) | TypeScript / Node.js | Инвентаризация репозитория: расширения, объём и крупнейшие файлы |
+| [DupeRadar](https://github.com/apothemm/dupe-radar) | Python | Поиск одинаковых файлов по размеру и хешу; отчёт без удаления |
 
-`C++17` `Windows API` `CTest`
+## Desktop
 
-[Исходники ↗](https://github.com/modeAlohadance/systemscope) · [Скачать для Windows ↓](https://github.com/modeAlohadance/systemscope/releases/latest)
+| Приложение | Возможности | Запуск |
+| :-- | :-- | :-- |
+| [WorkDesk](https://github.com/apothemm/workdesk) · C++ | Задачи, приоритеты, заметки и таймер | [Windows EXE](https://github.com/apothemm/workdesk/releases/latest) |
+| [SystemScope](https://github.com/apothemm/systemscope) · C++ | CPU, RAM, поиск процессов, диски и отчёты | [Windows EXE](https://github.com/apothemm/systemscope/releases/latest) |
+| [DiskLens](https://github.com/apothemm/disk-lens) · Python | Анализ папок и крупных файлов, экспорт CSV | [Windows EXE](https://github.com/apothemm/disk-lens/releases/latest) |
+| [SnippetShelf](https://github.com/apothemm/snippet-shelf) · Python | Шаблоны текста, теги, поиск и переменные | [Windows EXE](https://github.com/apothemm/snippet-shelf/releases/latest) |
+| [FocusHarbor](https://github.com/apothemm/focus-harbor) · Python | Фокус-сессии, перерывы и журнал | [Windows EXE](https://github.com/apothemm/focus-harbor/releases/latest) |
+| [SortMate](https://github.com/apothemm/sortmate) · Python | План сортировки файлов и отмена перемещений | [Инструкция](https://github.com/apothemm/sortmate) |
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ◈ [DiskLens](https://github.com/modeAlohadance/disk-lens)
-**Куда уходит место на диске?**
-
-Анализ папок, список крупных файлов и распределение по типам. Сканирование с отменой и экспорт отчёта в CSV.
-
-`Python` `Tkinter` `Threading`
-
-[Исходники ↗](https://github.com/modeAlohadance/disk-lens) · [Скачать для Windows ↓](https://github.com/modeAlohadance/disk-lens/releases/latest)
-
-</td>
-<td width="50%" valign="top">
-
-### ◇ [SnippetShelf](https://github.com/modeAlohadance/snippet-shelf)
-**Нужные слова — всегда под рукой.**
-
-Библиотека текстовых шаблонов с тегами и поиском. Подстановка переменных, копирование результата, импорт и экспорт JSON.
-
-`Python` `Tkinter` `SQLite`
-
-[Исходники ↗](https://github.com/modeAlohadance/snippet-shelf) · [Скачать для Windows ↓](https://github.com/modeAlohadance/snippet-shelf/releases/latest)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ◷ [FocusHarbor](https://github.com/modeAlohadance/focus-harbor)
-**Время для одной важной задачи.**
-
-Таймер фокусировки с паузами и перерывами. Журнал завершённых сессий, статистика за день и экспорт CSV.
-
-`Python` `Tkinter` `SQLite`
-
-[Исходники ↗](https://github.com/modeAlohadance/focus-harbor) · [Скачать для Windows ↓](https://github.com/modeAlohadance/focus-harbor/releases/latest)
-
-</td>
-<td width="50%" valign="top">
-
-### ▦ [SortMate](https://github.com/modeAlohadance/sortmate)
-**Порядок в папке начинается с плана.**
-
-Сортировка файлов по типам или месяцам. Предпросмотр перемещений, обработка совпадающих имён и отмена последней операции.
-
-`Python` `Tkinter` `Filesystem`
-
-[Исходники и запуск ↗](https://github.com/modeAlohadance/sortmate#run-on-windows)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⇄ [DiffSignal](https://github.com/modeAlohadance/diffsignal)
-**Следить за изменениями на веб-страницах.**
-
-Self-hosted сервис мониторинга: история версий, сравнение изменений, веб-интерфейс и REST API.
-
-`Python` `FastAPI` `SQLite` `Docker`
-
-[Посмотреть проект ↗](https://github.com/modeAlohadance/diffsignal)
-
-</td>
-<td width="50%" valign="top">
-
-### ⌁ [ShareSafe](https://github.com/modeAlohadance/sharesafe)
-**Подготовить текст перед отправкой.**
-
-CLI для поиска и маскирования распространённых секретов и персональных данных в логах, конфигурациях и промптах. Обработка локально.
-
-`Python` `CLI` `Text processing`
-
-[Посмотреть проект ↗](https://github.com/modeAlohadance/sharesafe)
-
-</td>
-</tr>
-</table>
-
-Ещё один проект: **[Windows First Aid](https://github.com/modeAlohadance/windows-first-aid)** — AI-skill для первичной диагностики Windows с PowerShell-сборщиком отчёта.
+Ещё: [ShareSafe](https://github.com/apothemm/sharesafe) — локальная маскировка секретов в тексте; [Windows First Aid](https://github.com/apothemm/windows-first-aid) — AI-skill с PowerShell-сборщиком диагностики.
 
 ## Технологии
 
-В моих проектах используются:
-
 <p>
-  <img src="./assets/cpp.svg" alt="C++17" height="30" />
-  <img src="./assets/win32.svg" alt="Win32 API" height="30" />
-  <img src="./assets/cmake.svg" alt="CMake" height="30" />
-  <img src="./assets/python.svg" alt="Python" height="30" />
-  <img src="./assets/tkinter.svg" alt="Tkinter" height="30" />
-  <img src="./assets/sqlite.svg" alt="SQLite" height="30" />
-  <img src="./assets/fastapi.svg" alt="FastAPI" height="30" />
-  <img src="./assets/powershell.svg" alt="PowerShell" height="30" />
-  <img src="./assets/git.svg" alt="Git" height="30" />
-  <img src="./assets/actions.svg" alt="GitHub Actions" height="30" />
+<img src="./assets/dotnet.svg" alt="C# / .NET" height="28" />
+<img src="./assets/cpp.svg" alt="C++17" height="28" />
+<img src="./assets/go.svg" alt="Go" height="28" />
+<img src="./assets/rust.svg" alt="Rust" height="28" />
+<img src="./assets/typescript.svg" alt="TypeScript" height="28" />
+<img src="./assets/python.svg" alt="Python" height="28" />
+<img src="./assets/actions.svg" alt="GitHub Actions" height="28" />
 </p>
 
-WorkDesk и SystemScope собираются на C++17 с Win32 API и CMake. Вместе с FocusHarbor, SnippetShelf и DiskLens они имеют инструкции, автоматические проверки и готовые Windows-сборки. Для меня важно, чтобы проект можно было не только прочитать, но и запустить.
+В репозиториях есть инструкции запуска, тесты и автоматические проверки. Особенности и ограничения каждого инструмента описаны в README.
 
-## Направление
-
-Интересуют **стажировки и junior-позиции** в разработке на Python и C++, автоматизации и создании инструментов для пользователей и разработчиков. Продолжаю изучать архитектуру приложений, тестирование и работу с API на практических проектах.
-
-Идеи и замечания по приложениям можно оставить в **Issues соответствующего репозитория**.
+Интересуют **стажировки и junior-позиции** в разработке и автоматизации. Продолжаю изучать архитектуру, конкурентность, тестирование и работу с данными через практические проекты. Идеи и замечания — в Issues соответствующего репозитория.
 
 ---
 
-<p align="center"><sub>Python &amp; C++ · Desktop apps · Everyday automation</sub></p>
+<sub>Small tools. Thoughtful systems. Continuous learning.</sub>
