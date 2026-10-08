@@ -1,11 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
-<title id="title">apothemm — practical software</title><desc id="desc">Графит и серебро. Инструменты для спокойной работы. C#, C++, Go, Rust, TypeScript и Python.</desc>
-<rect width="1200" height="330" rx="8" fill="#18191c"/>
-<path d="M48 54H1152M48 276H1152" stroke="#414349"/>
-<text x="48" y="37" fill="#a3a6ad" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3">APOTHEMM / SOFTWARE NOTES</text>
-<text x="48" y="139" fill="#e2e3e6" font-family="Segoe UI,Arial,sans-serif" font-size="66" font-weight="400" letter-spacing="-2">apothemm</text>
-<text x="52" y="191" fill="#b5b7bd" font-family="Segoe UI,Arial,sans-serif" font-size="24">Инструменты для спокойной работы.</text>
-<text x="52" y="235" fill="#8f939b" font-family="Consolas,monospace" font-size="14">C# / C++ / GO / RUST / TYPESCRIPT / PYTHON</text>
-<text x="48" y="306" fill="#a3a6ad" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">LOCAL FIRST. CLEAR PURPOSE.</text>
-<g transform="translate(870 87)" fill="none" stroke="#7c8088"><rect width="245" height="149" rx="3"/><path d="M0 32H245M30 65H158M30 89H211M30 113H181"/><circle cx="18" cy="16" r="3" fill="#ced0d5" stroke="none"/><path d="M206 12H228M206 19H228" stroke="#a6a9b0"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc"><title id="title">APOTHEMM — Black and Silver</title><desc id="desc">Портфолио инструментов и систем. Чёрные панели, хромированный заголовок, серебряные орбиты и геометрия.</desc><defs>
+<linearGradient id="chrome" x1="0" y1="0" x2="0.25" y2="1"><stop stop-color="#fafbfc"/><stop offset=".22" stop-color="#9ca2ac"/><stop offset=".43" stop-color="#edf0f5"/><stop offset=".49" stop-color="#535963"/><stop offset=".63" stop-color="#b8bec8"/><stop offset="1" stop-color="#f7f8fb"/></linearGradient>
+<linearGradient id="rim"><stop stop-color="#4a505a"/><stop offset=".24" stop-color="#e3e6ec"/><stop offset=".5" stop-color="#646b76"/><stop offset=".78" stop-color="#e3e6ec"/><stop offset="1" stop-color="#3b414b"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171a20"/><stop offset=".5" stop-color="#07080b"/><stop offset="1" stop-color="#11141a"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#c3cad7" stop-opacity=".25"/><stop offset="1" stop-color="#c3cad7" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#7a8493" stroke-opacity=".11" stroke-width=".6"/></pattern>
+</defs>
+<rect width="1200" height="470" rx="18" fill="#030407"/>
+<rect x="1" y="1" width="1198" height="468" rx="18" fill="url(#panel)" stroke="url(#rim)" stroke-width="2"/>
+<rect x="16" y="16" width="1168" height="438" rx="9" fill="none" stroke="#5b626f" stroke-opacity=".5"/>
+<rect x="17" y="17" width="1166" height="436" rx="8" fill="url(#grid)"/>
+<ellipse cx="940" cy="220" rx="290" ry="230" fill="url(#halo)"/>
+<path d="M40 77H746L776 47H1158M40 397H762L792 427H1158" fill="none" stroke="url(#rim)" stroke-width="1.3"/>
+<g fill="#d0d5df"><circle cx="40" cy="77" r="3"/><circle cx="1158" cy="47" r="3"/><circle cx="40" cy="397" r="3"/><circle cx="1158" cy="427" r="3"/></g>
+<text x="54" y="51" fill="#b7bfcb" font-family="Consolas,monospace" font-size="14" letter-spacing="3">OPEN SOURCE / ENGINEERING LAB</text>
+<text x="51" y="190" fill="#000" font-family="Segoe UI,Arial,sans-serif" font-size="99" font-weight="800" letter-spacing="-5">APOTHEMM</text>
+<text x="49" y="184" fill="url(#chrome)" stroke="#e4e8ef" stroke-width=".35" font-family="Segoe UI,Arial,sans-serif" font-size="99" font-weight="800" letter-spacing="-5">APOTHEMM</text>
+<path d="M54 207H703" stroke="url(#rim)" stroke-width="2"/>
+<text x="55" y="248" fill="#e0e4ec" font-family="Segoe UI,Arial,sans-serif" font-size="25">Код. Инструменты. Рабочие системы.</text>
+<text x="55" y="282" fill="#9da7b6" font-family="Segoe UI,Arial,sans-serif" font-size="18">От повседневных утилит до резервных снимков.</text>
+<g font-family="Consolas,monospace" font-size="14" text-anchor="middle" fill="#d9dfe9">
+<rect x="54" y="323" width="82" height="36" rx="4" fill="#090c11" stroke="#808998"/><text x="95" y="347">C#</text>
+<rect x="148" y="323" width="82" height="36" rx="4" fill="#090c11" stroke="#808998"/><text x="189" y="347">C++</text>
+<rect x="242" y="323" width="82" height="36" rx="4" fill="#090c11" stroke="#808998"/><text x="283" y="347">GO</text>
+<rect x="336" y="323" width="88" height="36" rx="4" fill="#090c11" stroke="#808998"/><text x="380" y="347">RUST</text>
+<rect x="436" y="323" width="140" height="36" rx="4" fill="#090c11" stroke="#808998"/><text x="506" y="347">TYPESCRIPT</text>
+<rect x="588" y="323" width="115" height="36" rx="4" fill="#090c11" stroke="#808998"/><text x="645" y="347">PYTHON</text></g>
+<g transform="translate(954 223)" fill="none"><circle r="145" stroke="#606b7a" stroke-width=".7"/><circle r="129" stroke="url(#rim)" stroke-width="2.5"/><circle r="111" stroke="#687484" stroke-dasharray="2 9" stroke-width="2"/><ellipse rx="169" ry="53" stroke="#bec7d5" stroke-width="1.6" transform="rotate(-35)"/><ellipse rx="169" ry="53" stroke="#7a879b" transform="rotate(35)"/><path d="M-90 0H90M0-90V90" stroke="#7c889b" stroke-opacity=".5"/><path d="M0-68 61-34V34L0 68-61 34V-34Z" fill="#080b10" stroke="url(#rim)" stroke-width="2"/><path d="M0-49 44-24V24L0 49-44 24V-24Z" stroke="#586576"/><text x="0" y="13" fill="url(#chrome)" font-family="Consolas,monospace" font-size="34" font-weight="700" text-anchor="middle">&lt;/&gt;</text><circle cx="109" cy="-106" r="6" fill="#d3dbe6"/><circle cx="-131" cy="79" r="4" fill="#939ead"/></g>
+<text x="55" y="434" fill="#8994a5" font-family="Consolas,monospace" font-size="13" letter-spacing="2">BUILD / TEST / IMPROVE</text><text x="1076" y="385" text-anchor="end" fill="#a2adbd" font-family="Consolas,monospace" font-size="12" letter-spacing="2">BLACK + SILVER</text>
 </svg>
