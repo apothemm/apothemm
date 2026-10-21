@@ -6,6 +6,14 @@
 
 Сайт для заказчиков: **[apothemm.github.io](https://apothemm.github.io/)** · [Telegram](https://t.me/apothemm)
 
+### Новые проекты
+
+**[AccessMap](https://github.com/apothemm/access-map)** · TypeScript / Node.js  
+Проверки доступности HTML, граф локальных ссылок и сравнение отчётов для CI. Выводит HTML, JSON и SARIF. Работает без внешних запросов; отрисовку браузера и CSS пока не анализирует.
+
+**[DocHarbor](https://github.com/apothemm/doc-harbor)** · Python / SQLite FTS5  
+Локальная библиотека текстовых документов: поиск, история версий, сравнение и извлечение старого содержимого в новый файл. Есть проверка объектов по SHA-256. PDF/DOCX, шифрование и синхронизация не поддерживаются.
+
 ### С чего начать
 
 **[VaultTrail](https://github.com/apothemm/vault-trail)** · C# / .NET  
