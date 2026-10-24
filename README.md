@@ -2,7 +2,7 @@
 
 <img src="./assets/ascii-hands-v1.png" width="100%" alt="Две руки из серебристых ASCII-символов тянутся друг к другу на чёрном фоне" />
 
-<picture><source media="(max-width: 600px)" srcset="./assets/ascii/mobile-identity.svg" /><img src="./assets/ascii/identity.svg" width="100%" alt="apothemm. Локальные инструменты, файлы и автоматизация. Личные учебные проекты, созданные с помощью ИИ; не коммерческий опыт." /></picture>
+<picture><source media="(max-width: 600px)" srcset="./assets/ascii/mobile-identity.svg" /><img src="./assets/ascii/identity.svg" width="100%" alt="apothemm. Локальные инструменты, файлы и автоматизация.  /></picture>
 
 <picture><source media="(max-width: 600px)" srcset="./assets/ascii/mobile-stack.svg" /><img src="./assets/ascii/stack.svg" width="100%" alt="Основная практика: Python и C#. C++, TypeScript, Go и Rust изучаю в отдельных проектах." /></picture>
 
